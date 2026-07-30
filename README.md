@@ -8,7 +8,10 @@
 
 # About
 
-This repository contains Jito's fork of the Solana validator.
+This repository contains Jito's fork of the Solana validator, with **Circular Fast** export of BAM-verified transactions.
+
+- Circular / BAM architecture: [`CIRCULAR.md`](CIRCULAR.md)
+- Grafana metrics guide: [`grafana/README.md`](grafana/README.md)
 
 We recommend checking out our [Gitbook](https://jito-foundation.gitbook.io/mev/jito-solana/building-the-software) for
 more detailed instructions on building and running Jito-Solana.

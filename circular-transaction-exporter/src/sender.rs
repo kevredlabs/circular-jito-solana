@@ -214,7 +214,7 @@ impl CircularExportSender {
     /// copy happen on the exporter thread.
     #[inline]
     pub fn export_bam_shared(&self, batches: Arc<Vec<PacketBatch>>) {
-        let start = Instant::now();
+        let start = Instant::now(); //for testing ONLY
         self.try_send_shared_with_vote_filter(
             batches,
             /* is_tpu_vote */ false,
